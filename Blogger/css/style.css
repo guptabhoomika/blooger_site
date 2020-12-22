@@ -1,0 +1,141 @@
+
+html,body{
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+h3{
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+ul
+{
+    list-style-type: none;
+   
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: "Sofia", sans-serif;
+    cursor: pointer;
+   
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+
+    display: flex;
+    margin: 0%;
+
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: "Sofia", sans-serif;
+ 
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: #104f55;
+    
+    
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: white;
+    
+    
+}
+
+.nav .nav-brand a{
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+
+    
+}
+ .nav .social{
+     padding: 1.4rem 0;
+
+ }
+
+ .nav .social i{
+    padding: 0 .2rem;
+
+}
+
+.nav .social i:hover{
+    color: #a1c4cf;
+}
+
+
+main .site-title{
+    background: url('../assets/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .site-title .site-bg{
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+main .site-title h1,h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    color:black
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
