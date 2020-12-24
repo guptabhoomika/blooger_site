@@ -7,6 +7,10 @@ html,body{
 
 
 }
+
+img{
+    width: 50%;
+}
 a{
     text-decoration: none;
     color: black;
@@ -138,4 +142,34 @@ main .site-title .btn:hover{
     border: 1px solid white;
     color: white;
 }
+
+main .blog{
+    background: url("../assets/Abract01.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+main .blog .blog-post{
+    padding-top: 6rem;
+
+}
+
+main .blog-post .blog_content{
+   display: flex;
+   flex-direction: column;
+   
+  
+   margin: 2rem 3rem;
+  box-shadow: 0 5px 2px;
+}
+
+
+
+
+
+
+
 
